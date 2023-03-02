@@ -12,6 +12,7 @@
 #home{
     font-size: 20px;
     color: black;
+    
 }
 #home:hover{
     font-size: 21px;
@@ -21,6 +22,7 @@
 #about{
     font-size: 20px;
     color: black;
+    padding-left: 1rem;
 }
 #about:hover{
     font-size: 21px;
@@ -30,9 +32,11 @@
 #contact{
     font-size: 20px;
     color: black;
+    padding-left: 1rem;
 }
 #contact:hover{
     font-size: 21px;
     color: red;
     text-decoration: underline;
 }
+

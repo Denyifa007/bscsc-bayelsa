@@ -16,6 +16,7 @@ import {
 import logo1 from '../Assets/bylogo (1).png'
 import logo2 from '../Assets/bayels flag.jpeg'
 import '../Style/Navbar.css'
+import {Link} from 'react-router-dom';
 
 export default function App() {
   const [showNavCentred, setShowNavCentred] = useState(false);
@@ -38,15 +39,15 @@ export default function App() {
         <MDBCollapse className='collapse'  navbar show={showNavCentred} center id='navbarCenteredExample'>
           <MDBNavbarNav fullWidth={false} className='mb-2 mb-lg-0'>
             <MDBNavbarItem>
-              <MDBNavbarLink id='home' aria-current='page' href='#'>
+              <Link id='home' aria-current='page' href='#' to="/">
                 Home
-              </MDBNavbarLink>
+              </Link>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink id='about' href='#'>About us</MDBNavbarLink>
+              <Link to="Aboutus" id='about' href='#'>About us</Link>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink id='contact' href='#'>Contact us</MDBNavbarLink>
+              <Link to='Contactus' id='contact' href='#'>Contact us</Link>
             </MDBNavbarItem>
 
           </MDBNavbarNav>

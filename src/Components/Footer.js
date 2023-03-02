@@ -7,17 +7,19 @@ import {
   MDBIcon,
   MDBBtn,
 } from "mdb-react-ui-kit";
+import '../Style/Footer.css'
 
 const Footer = () => {
   return (
-    <MDBFooter className="bg-light text-center text-white">
+    <MDBFooter id="footer" className="bg-light text-center text-white">
       <MDBContainer className="p-4 pb-0">
         <section className="mb-4">
           <MDBBtn
             floating
             className="m-1"
             style={{ backgroundColor: "#3b5998" }}
-            href="#!"
+            href="https://web.facebook.com/communitysafetycorps/?_rdc=1&_rdr"
+            target="_blank"
             role="button"
           >
             <MDBIcon fab icon="facebook-f" />
