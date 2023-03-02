@@ -1,0 +1,49 @@
+#bscsc{
+    font-size: 45px;
+    margin-right: 3rem;
+
+    
+}
+#corplogo{
+    margin-left: 2px;
+    width: 7rem;
+    height: 7rem;
+}
+.logo3{
+    width: 100%;
+}
+#community{
+    position: absolute;
+    bottom: 19rem;
+    color: white;
+    left: 11rem;
+    font-size: 16px;
+    font-weight: 100;
+    font: normal normal bold 20px/25px Roboto;
+  
+}
+@media(max-width:468px){
+    .logo3{
+        width: 1024px;
+    }
+    #corplogo{
+        
+        width: 7rem;
+        height: 7rem;
+    }
+    #bscsc{
+        font-size: 30px;
+        margin-right: 1rem;
+        font: normal normal bold 40px/43px Roboto;
+    }
+    #community{
+        position: absolute;
+        bottom: 8rem;
+        color: white;
+        left: 0rem;
+        font-size: 16px;
+        font-weight: 100;
+      
+    }
+
+}

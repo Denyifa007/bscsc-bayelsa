@@ -1,0 +1,44 @@
+#diri{
+    width: 37rem;
+    height: 32rem;
+    padding-top: 6rem;
+    margin-left: 0rem;
+}
+#abu{
+    padding-top: 6rem;
+    padding-left: 2rem;
+    color: black;
+
+}
+#abu h1{
+    color: blue;
+
+}
+#abu h5{
+    padding-top: 2rem;
+    font-size: 18px;
+    font: normal normal bold 20px/30px Roboto;
+    
+}
+#btn-about{
+    margin-top: 2rem;
+    width: 10rem;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: blue;
+    border: none;
+    color: white;
+    
+}
+#btn-about:hover{
+    margin-top: 2rem;
+    width: 10rem;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: gold;
+    color: white;
+    border: none;
+    
+}

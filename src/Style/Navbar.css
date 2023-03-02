@@ -1,0 +1,38 @@
+#logo1{
+    width: 6rem;
+    height: 6rem;
+}
+#logo2{
+    width: 6rem;
+    height: 6rem;
+}
+.collapse{
+    justify-content: center;
+}
+#home{
+    font-size: 20px;
+    color: black;
+}
+#home:hover{
+    font-size: 21px;
+    color: red;
+    text-decoration: underline;
+}
+#about{
+    font-size: 20px;
+    color: black;
+}
+#about:hover{
+    font-size: 21px;
+    color: red;
+    text-decoration: underline;
+}
+#contact{
+    font-size: 20px;
+    color: black;
+}
+#contact:hover{
+    font-size: 21px;
+    color: red;
+    text-decoration: underline;
+}
