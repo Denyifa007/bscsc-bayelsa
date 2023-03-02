@@ -39,4 +39,14 @@
     color: red;
     text-decoration: underline;
 }
+@media(max-width:468px){
+    #home{
+        font-size: 20px;
+        color: black;
+        padding-left: 1rem;
+        
+    }
+    
+
+}
 

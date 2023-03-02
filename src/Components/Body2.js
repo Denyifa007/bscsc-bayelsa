@@ -4,8 +4,8 @@ import "../Style/Body2.css";
 import img1 from "../Assets/diri in safty corp uni.jpeg";
 import img2 from "../Assets/diri safety corp.jpeg";
 import img3 from "../Assets/communiy safty pic.jpeg";
-import img4 from "../Assets/k9 safty.webp";
-import img5 from "../Assets/bsc.jpeg";
+import img4 from "../Assets/community safety corp.jpeg";
+import img5 from "../Assets/vehlcile safty corp.jpg";
 
 const Body2 = () => {
   return (

@@ -5,20 +5,15 @@ import {
   MDBIcon,
   MDBNavbarNav,
   MDBNavbarItem,
-  MDBNavbarLink,
   MDBNavbarToggler,
   MDBCollapse,
-  MDBDropdown,
-  MDBDropdownMenu,
-  MDBDropdownToggle,
-  MDBDropdownItem,
 } from 'mdb-react-ui-kit';
 import logo1 from '../Assets/bylogo (1).png'
 import logo2 from '../Assets/bayels flag.jpeg'
 import '../Style/Navbar.css'
 import {Link} from 'react-router-dom';
 
-export default function App() {
+export default function Navbar() {
   const [showNavCentred, setShowNavCentred] = useState(false);
 
   return (

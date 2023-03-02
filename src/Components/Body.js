@@ -21,6 +21,7 @@ const Body = () => {
       </MDBCol>
       <MDBCol id="image" md="4">
         <img src={diri} alt="" id="diri" className="img-fluid"  />
+        <h4>His Excellency Sen Douye Diri</h4>
       </MDBCol>
     </MDBRow>
   );
