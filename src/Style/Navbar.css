@@ -14,6 +14,9 @@
     color: black;
     
 }
+#navbar{
+    z-index: ;
+}
 #home:hover{
     font-size: 21px;
     color: red;
@@ -39,7 +42,17 @@
     color: red;
     text-decoration: underline;
 }
-@media(max-width:468px){
+@media(max-width:1000px){
+    #home{
+        font-size: 20px;
+        color: black;
+        padding-left: 1rem;
+        
+    }
+    
+
+}
+@media(max-width:600px){
     #home{
         font-size: 20px;
         color: black;

@@ -1,8 +1,9 @@
 #diri{
-    width: 37rem;
-    height: 32rem;
-    padding-top: 6rem;
-    margin-left: 0rem;
+    padding-top: 5rem;
+    border: none;
+    border-radius: 9px;
+    object-fit: contain;
+   
 }
 #abu{
     padding-top: 6rem;
@@ -44,9 +45,15 @@
 }#image h4{
     color: black;
     padding-top: 1rem;
+    font-size: 2rem;
     font-weight: 600;
+    object-fit: contain;
 }
 #image{
-    border: none;
-    padding-left: 2rem;
+    text-align: center;
+    object-fit: contain;
+}
+.container{
+    justify-content: center;
+    align-items: center;
 }
