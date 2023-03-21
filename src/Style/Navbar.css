@@ -15,7 +15,8 @@
     
 }
 #navbar{
-    z-index: ;
+    
+    background: linear-gradient(50deg, #5572c1 30%, white);
 }
 #home:hover{
     font-size: 21px;

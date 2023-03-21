@@ -24,7 +24,10 @@
 #btn-about{
     margin-top: 2rem;
     width: 10rem;
-    border-radius: 8px;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
     padding: 10px;
     font-size: 20px;
     background-color: blue;
@@ -35,7 +38,10 @@
 #btn-about:hover{
     margin-top: 2rem;
     width: 10rem;
-    border-radius: 8px;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
     padding: 10px;
     font-size: 20px;
     background-color: gold;
@@ -56,4 +62,54 @@
 .container{
     justify-content: center;
     align-items: center;
+}
+#body1{
+    animation: changeBg 5s infinite alternate linear;
+    width:99.6vw;
+}
+
+@keyframes changeBg{
+    0% {
+        background: linear-gradient(60deg, #5572c1 10%, white);
+    }
+    25% {
+        background: linear-gradient(60deg, #5572c1 10%, #ee6055);
+    }
+    50% {
+        background: linear-gradient(60deg, #5572c1 10%, #60d394);
+    }
+    75%{
+        background: linear-gradient(60deg, #5572c1 10%, #517af4);
+    }
+    100% {
+        background: linear-gradient(60deg, #5572c1 10%, #42180f);
+    }
+}
+@media(max-width:600px){
+    #abu{
+        padding-top: 6rem;
+        padding-left: 2rem;
+        color: black;
+    
+    }
+    #body1{
+        background: linear-gradient(40deg, #5572c1 30%, white);
+        width:25%;
+        padding-bottom: 10rem;
+    }
+
+}
+@media(max-width:1000px){
+    #abu{
+        padding-top: 6rem;
+        padding-left: 2rem;
+        color: black;
+    
+    }
+    #body1{
+        background: linear-gradient(60deg, #5572c1 10%, white);
+        width:102vw;
+        padding-bottom: 10rem;
+    }
+
 }

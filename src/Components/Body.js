@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Body = () => {
   return (
-    <MDBRow className="container-fluid">
+    <MDBRow id="body1" className="container-fluid">
       <MDBCol id="abu" md="8">
         <h1>ABOUT US</h1>
         <h5>
@@ -21,7 +21,7 @@ const Body = () => {
         <Link to='Aboutus'><button id="btn-about">About us</button></Link>
       </MDBCol>
       <MDBCol id="image" md="4">
-        <img src={diri} alt="" id="diri" className="img-fluid"  />
+        <img src={diri} alt="" id="diri" className="img-fluid animate__animated animate__fadeInBottomRight"  />
         <h4>His Excellency Sen Douye Diri</h4>
       </MDBCol>
     </MDBRow>

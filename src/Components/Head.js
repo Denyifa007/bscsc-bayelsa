@@ -7,17 +7,17 @@ const Head = () => {
   return (
     <div className="Header">
       <div className="bg-image">
-        <img src={logo3} className="logo3" alt="Sample"  />
+        <img src={logo3} className="logo3 " alt="Sample"  />
         <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}>
           <div className="head">
             <div className="Header-contents container-fluid">
-              <h1 className="Header_text text-white mb-2 mt-3 animate__animated animate__heartBeat   animation-duration: 2s;">
+              <h1 className="Header_text text-white mb-2 mt-4 pt-5 animate__animated animate__heartBeat   animation-duration: 2s;">
                 Bayelsa State Community Safety Corp
               </h1>
-              <p className="community animate__animated animate__backInLeft">
+              <p className="community mb-6 animate__animated animate__backInLeft">
                 “The community corps is designed to support, partner and 
                 collaborate with the <br /> statutory federal security agencies in
-                efforts to rid the state of crime and criminal <br /> elements.”
+                efforts to rid the state of crime and criminal elements.”
               </p>
             </div>
             <img src={corplogo} alt="" id="corplogo"/>
